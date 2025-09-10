@@ -1,0 +1,4 @@
+cn.softfocus.xkzy.framework.idempotent.config.XkzyIdempotentConfiguration
+cn.softfocus.xkzy.framework.lock4j.config.XkzyLock4jConfiguration
+cn.softfocus.xkzy.framework.ratelimiter.config.XkzyRateLimiterConfiguration
+cn.softfocus.xkzy.framework.signature.config.XkzyApiSignatureAutoConfiguration

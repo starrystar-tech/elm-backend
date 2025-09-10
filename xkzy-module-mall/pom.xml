@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xkzy</artifactId>
+        <groupId>cn.softfocus</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xkzy-module-mall</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+
+    <description>
+        商城大模块，由 product 商品、promotion 营销、trade 交易、statistics 统计等组成
+    </description>
+    <modules>
+        <module>xkzy-module-product</module>
+        <module>xkzy-module-promotion</module>
+        <module>xkzy-module-trade</module>
+        <module>xkzy-module-statistics</module>
+        <!--
+            特殊：为什么会有 xkzy-module-trade-api 呢？
+                xkzy-module-promotion 和 xkzy-module-trade 之间相互循环依赖，所以抽出 xkzy-module-trade-api 模块，这样：
+                1. xkzy-module-promotion 依赖 xkzy-module-trade-api
+                2. xkzy-module-trade 依赖 xkzy-module-promotion
+            从而不存在相互（循环）依赖，即 xkzy-module-trade => xkzy-module-promotion => xkzy-module-trade-api
+         -->
+        <module>xkzy-module-trade-api</module>
+    </modules>
+
+</project>

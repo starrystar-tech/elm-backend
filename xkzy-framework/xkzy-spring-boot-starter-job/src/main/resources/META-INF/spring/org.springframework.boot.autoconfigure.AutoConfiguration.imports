@@ -1,0 +1,2 @@
+cn.softfocus.xkzy.framework.quartz.config.XkzyQuartzAutoConfiguration
+cn.softfocus.xkzy.framework.quartz.config.XkzyAsyncAutoConfiguration

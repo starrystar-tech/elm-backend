@@ -1,26 +1,54 @@
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
+######################################################################
+# Build Tools
 
-# Icon must end with two \r
-Icon
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
 
-# Thumbnails
-._*
+target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+.flattened-pom.xml
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+######################################################################
+# IDE
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/*
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+######################################################################
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+### JRebel ###
+rebel.xml
+
+application-my.yaml
+
+/xkzy-ui-app/unpackage/
+**/.DS_Store

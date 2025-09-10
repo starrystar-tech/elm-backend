@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: elm-backend
+  main:
+    allow-circular-references: true
+  cloud:
+    compatibility-verifier:
+      enabled: false
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848 # Nacos服务器地址
+        file-extension: yaml # 配置文件格式
+        group: DEFAULT_GROUP # 配置分组
+        namespace: a34ea519-6a6b-447a-82f0-5c2508ac0654 # 命名空间ID
+        username: nacos # Nacos用户名（如果启用了认证）
+        password: xkzy#1234@ # Nacos密码（如果启用了认证）
+        timeout: 3000 # 配置获取超时时间
+        enable-remote-sync-config: true # 启用远程同步配置
+        refresh-enabled: true # 启用配置自动刷新xia
+    bootstrap:
+      enabled: true
+  config:
+    import:
+      - optional:nacos
+
+# 开启调试日志以便排查问题
+logging:
+  level:
+    com.alibaba.cloud.nacos: DEBUG
+    org.springframework.cloud.bootstrap: DEBUG

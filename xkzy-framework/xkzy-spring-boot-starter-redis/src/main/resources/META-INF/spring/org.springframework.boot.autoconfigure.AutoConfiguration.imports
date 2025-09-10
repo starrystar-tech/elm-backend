@@ -1,0 +1,2 @@
+cn.softfocus.xkzy.framework.redis.config.XkzyRedisAutoConfiguration
+cn.softfocus.xkzy.framework.redis.config.XkzyCacheAutoConfiguration

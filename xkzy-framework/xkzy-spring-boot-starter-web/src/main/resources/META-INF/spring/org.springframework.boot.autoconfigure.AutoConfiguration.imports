@@ -1,0 +1,7 @@
+cn.softfocus.xkzy.framework.apilog.config.XkzyApiLogAutoConfiguration
+cn.softfocus.xkzy.framework.jackson.config.XkzyJacksonAutoConfiguration
+cn.softfocus.xkzy.framework.swagger.config.XkzySwaggerAutoConfiguration
+cn.softfocus.xkzy.framework.web.config.XkzyWebAutoConfiguration
+cn.softfocus.xkzy.framework.xss.config.XkzyXssAutoConfiguration
+cn.softfocus.xkzy.framework.banner.config.XkzyBannerAutoConfiguration
+cn.softfocus.xkzy.framework.encrypt.config.XkzyApiEncryptAutoConfiguration

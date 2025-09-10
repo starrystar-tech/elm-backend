@@ -1,0 +1,2 @@
+cn.softfocus.xkzy.framework.tracer.config.XkzyTracerAutoConfiguration
+cn.softfocus.xkzy.framework.tracer.config.XkzyMetricsAutoConfiguration

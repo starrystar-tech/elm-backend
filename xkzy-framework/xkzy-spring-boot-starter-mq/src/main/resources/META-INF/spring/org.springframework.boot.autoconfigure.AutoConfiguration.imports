@@ -1,0 +1,3 @@
+cn.softfocus.xkzy.framework.mq.redis.config.XkzyRedisMQProducerAutoConfiguration
+cn.softfocus.xkzy.framework.mq.redis.config.XkzyRedisMQConsumerAutoConfiguration
+cn.softfocus.xkzy.framework.mq.rabbitmq.config.XkzyRabbitMQAutoConfiguration
