@@ -1,0 +1,3 @@
+cn.softfocus.xkzy.framework.security.config.XkzySecurityAutoConfiguration
+cn.softfocus.xkzy.framework.security.config.XkzyWebSecurityConfigurerAdapter
+cn.softfocus.xkzy.framework.operatelog.config.XkzyOperateLogConfiguration

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xkzy</artifactId>
+        <groupId>cn.softfocus</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modules>
+        <module>xkzy-module-iot-biz</module>
+        <module>xkzy-module-iot-core</module>
+        <module>xkzy-module-iot-gateway</module>
+    </modules>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xkzy-module-iot</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        物联网模块
+    </description>
+
+</project>

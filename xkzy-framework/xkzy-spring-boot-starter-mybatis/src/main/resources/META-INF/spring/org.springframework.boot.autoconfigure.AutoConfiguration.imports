@@ -1,0 +1,3 @@
+cn.softfocus.xkzy.framework.datasource.config.XkzyDataSourceAutoConfiguration
+cn.softfocus.xkzy.framework.mybatis.config.XkzyMybatisAutoConfiguration
+cn.softfocus.xkzy.framework.translate.config.XkzyTranslateAutoConfiguration

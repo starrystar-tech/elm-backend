@@ -1,0 +1,1 @@
+package cn.softfocus.xkzy.module.crm.framework.permission.core;

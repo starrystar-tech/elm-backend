@@ -1,0 +1,49 @@
+[ {
+  "contentPath" : "java/InfraCategoryListReqVO",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/java/cn.softfocus.xkzy/module/infra/controller/admin/demo/vo/InfraCategoryListReqVO.java"
+}, {
+  "contentPath" : "java/InfraCategoryRespVO",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/java/cn.softfocus.xkzy/module/infra/controller/admin/demo/vo/InfraCategoryRespVO.java"
+}, {
+  "contentPath" : "java/InfraCategorySaveReqVO",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/java/cn.softfocus.xkzy/module/infra/controller/admin/demo/vo/InfraCategorySaveReqVO.java"
+}, {
+  "contentPath" : "java/InfraCategoryController",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/java/cn.softfocus.xkzy/module/infra/controller/admin/demo/InfraCategoryController.java"
+}, {
+  "contentPath" : "java/InfraCategoryDO",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/java/cn.softfocus.xkzy/module/infra/dal/dataobject/demo/InfraCategoryDO.java"
+}, {
+  "contentPath" : "java/InfraCategoryMapper",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/java/cn.softfocus.xkzy/module/infra/dal/mysql/demo/InfraCategoryMapper.java"
+}, {
+  "contentPath" : "xml/InfraCategoryMapper",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/resources/mapper/demo/InfraCategoryMapper.xml"
+}, {
+  "contentPath" : "java/InfraCategoryServiceImpl",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/java/cn.softfocus.xkzy/module/infra/service/demo/InfraCategoryServiceImpl.java"
+}, {
+  "contentPath" : "java/InfraCategoryService",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/main/java/cn.softfocus.xkzy/module/infra/service/demo/InfraCategoryService.java"
+}, {
+  "contentPath" : "java/InfraCategoryServiceImplTest",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-biz/src/test/java/cn.softfocus.xkzy/module/infra/service/demo/InfraCategoryServiceImplTest.java"
+}, {
+  "contentPath" : "java/ErrorCodeConstants_手动操作",
+  "filePath" : "xkzy-module-infra/xkzy-module-infra-api/src/main/java/cn.softfocus.xkzy/module/infra/enums/ErrorCodeConstants_手动操作.java"
+}, {
+  "contentPath" : "sql/sql",
+  "filePath" : "sql/sql.sql"
+}, {
+  "contentPath" : "sql/h2",
+  "filePath" : "sql/h2.sql"
+}, {
+  "contentPath" : "vue/index",
+  "filePath" : "xkzy-ui-admin-vue3/src/views/infra/demo/index.vue"
+}, {
+  "contentPath" : "vue/CategoryForm",
+  "filePath" : "xkzy-ui-admin-vue3/src/views/infra/demo/CategoryForm.vue"
+}, {
+  "contentPath" : "ts/index",
+  "filePath" : "xkzy-ui-admin-vue3/src/api/infra/demo/index.ts"
+} ]
