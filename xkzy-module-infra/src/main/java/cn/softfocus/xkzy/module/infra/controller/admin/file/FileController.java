@@ -99,7 +99,6 @@ public class FileController {
         if (StrUtil.isEmpty(path)) {
             throw new IllegalArgumentException("结尾的 path 路径必须传递");
         }
-        // 解码，解决中文路径的问题 https://gitee.com/zhijiantianya/ruoyi-vue-pro/pulls/807/
         path = URLUtil.decode(path);
 
         // 读取内容

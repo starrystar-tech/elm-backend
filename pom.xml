@@ -29,7 +29,6 @@
 
     <name>${project.artifactId}</name>
     <description>企聚项目基础脚手架</description>
-    <url>https://github.com/YunaiV/ruoyi-vue-pro</url>
 
     <properties>
         <revision>2025.09-SNAPSHOT</revision>

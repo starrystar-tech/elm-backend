@@ -215,7 +215,6 @@
                     <artifactId>enjoy</artifactId>
                 </exclusion>
                 <exclusion>
-                    <!-- 解决 https://gitee.com/zhijiantianya/ruoyi-vue-pro/pulls/1318/ 问题 -->
                     <groupId>com.agentsflex</groupId>
                     <artifactId>agents-flex-store-elasticsearch</artifactId>
                 </exclusion>

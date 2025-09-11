@@ -13,7 +13,6 @@
 
     <name>${project.artifactId}</name>
     <description>Excel 拓展</description>
-    <url>https://github.com/YunaiV/ruoyi-vue-pro</url>
 
     <dependencies>
         <dependency>
