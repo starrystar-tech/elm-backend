@@ -1,3 +1,8 @@
+# 在线体验
+
+* 体验地址：[https://elm.softfoucs.cn/](https://elm.softfoucs.cn/)（账号密码已默认）
+* 文档地址：[https://docs.softfoucs.cn/](https://docs.softfoucs.cn/)
+
 # 启动
 
 ## 版本说明
@@ -11,8 +16,8 @@
 >>>1. 右键点击“此电脑”或“计算机” -> “属性” -> “高级系统设置” -> “环境变量”。
 >>>2. 在“系统变量”部分，新建一个变量：
 >>>>
->>>> * 变量名: JAVA_HOME
->>>> * 变量值: 你的 JDK 安装路径（例如 C:\Program Files\Java\jdk-17.0.10）
+>>>>* 变量名: JAVA_HOME
+>>>>* 变量值: 你的 JDK 安装路径（例如 C:\Program Files\Java\jdk-17.0.10）
 >>>>
 >>>3. 找到并编辑 Path 变量：点击“新建”，添加两条新的条目：
 >>>>
@@ -39,7 +44,7 @@
 
 * 使用IDEA克隆[https://gitee.com/starrystar-tech/elm-backend.git](https://gitee.com/starrystar-tech/elm-backend/tree/main)项目，并 Star 关注该项目。
 
-![克隆项目](https://s3.bmp.ovh/imgs/2025/09/11/ef07007ceb1e5b07.png){width=50%}
+![克隆项目](https://s3.bmp.ovh/imgs/2025/09/11/ef07007ceb1e5b07.png)
 
 ## 2.Nacos
 
@@ -55,9 +60,9 @@
 >注意Nacos 的默认端口是 8848。确保此端口未被其他程序占用。
 >
 >启动Nacos，在命令行中输入：
-   >>
-   >> * Windows启动命令:**`cmd startup.cmd`**;
-   >> * Linux/Mac启动命令:**`sh startup.sh -m standalone`**;
+>>
+>> * Windows启动命令:**`cmd startup.cmd`**;
+>> * Linux/Mac启动命令:**`sh startup.sh -m standalone`**;
 >
 >访问控制台
 >
@@ -66,7 +71,7 @@
 >> * 默认用户名和密码都是 **`nacos`**。
 
 * 登陆后页面如下.
-![Nacos配置集](https://s3.bmp.ovh/imgs/2025/09/11/b1f101a1c9ff3063.png){width=50%}
+  ![Nacos配置集](https://s3.bmp.ovh/imgs/2025/09/11/b1f101a1c9ff3063.png)
 
 ### 2.1 初始化数据库
 
@@ -75,10 +80,10 @@
 >若未安装Mysql，访问Mysql官方下载页：[https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)，选择Mysql8.0进行下载。
 
 * 请自行建立数据库，运行[elm-backend/blob/master/sql/mysql/](https://gitee.com/starrystar-tech/elm-backend/blob/master/sql/mysql/)下的sql文件完成初始化，
-![数据库初始化](https://s3.bmp.ovh/imgs/2025/09/12/5f1656a791cac9e0.png){width=50%}
+  ![数据库初始化](https://s3.bmp.ovh/imgs/2025/09/12/5f1656a791cac9e0.png)
 
 * 更改[elm-backend/blob/master/Nacos/](https://gitee.com/starrystar-tech/elm-backend/blob/master/Nacos/)中.yaml文件里Mysql连接配置。
-![Nacos中Mysql配置更改](https://s3.bmp.ovh/imgs/2025/09/12/cd9c89c59403c6d2.png){width=50%}
+  ![Nacos中Mysql配置更改](https://s3.bmp.ovh/imgs/2025/09/12/cd9c89c59403c6d2.png)
 
 ### 2.2 初始化redis
 
@@ -90,36 +95,46 @@
 >>Linux/MacOS系统，访问 Redis 官方下载页：[https://redis.io/download/](https://redis.io/download/),复制最新稳定版的源码链接下载。
 >
 >在命令行中输入 **`redis-server`** 来启动Redis服务，启动后如图。
->>![Redis启动服务](https://s3.bmp.ovh/imgs/2025/09/12/0c3dc041d7754779.png){width=30%,height=30%}
+>>![Redis启动服务](https://s3.bmp.ovh/imgs/2025/09/12/0c3dc041d7754779.png)
 
 * 默认配置下，Redis 启动在 6379 端口，不设置账号密码。如果不一致，请自行修改。
 
 ### 2.3设置Nacos中配置文件
 
 * 在Nacos配置集中新建一个配置文件，将[elm-backend/blob/master/Nacos/](https://gitee.com/starrystar-tech/elm-backend/blob/master/Nacos/)中example.yaml文件复制其中,选择。
-![nacos配置发布](https://s3.bmp.ovh/imgs/2025/09/12/5f65564f9d03bf00.png){width=50%}
+  ![nacos配置发布](https://s3.bmp.ovh/imgs/2025/09/12/5f65564f9d03bf00.png)
 
 * 更改项目中[bootstrap.yaml](https://gitee.com/starrystar-tech/elm-backend/blob/master/xkzy-server/src/main/resources/bootstrap.yaml)文件对应配置。
-![nacos对应配置修改](https://s3.bmp.ovh/imgs/2025/09/11/94e845daf729f149.png){width=50%}
+  ![nacos对应配置修改](https://s3.bmp.ovh/imgs/2025/09/11/94e845daf729f149.png)
 
 ## 3.启动后端
 
 ### 3.1 启动项目
 
 * 执行[XkzyServerApplication](https://gitee.com/starrystar-tech/elm-backend/blob/main/xkzy-server/src/main/java/cn/softfocus/xkzy/server/XkzyServerApplication.java)类，启动项目。
-![启动XkzyServerApplication](https://s3.bmp.ovh/imgs/2025/09/11/4ff915fad4dbfce8.png){width=50%}
+  ![启动XkzyServerApplication](https://s3.bmp.ovh/imgs/2025/09/11/4ff915fad4dbfce8.png)
 
 * 启动完成后，使用浏览器访问 [http://127.0.0.1:48080](http://127.0.0.1:48080) (opens new window)地址，如果返回如下 JSON 字符串，说明成功。
-![启动返回](https://s3.bmp.ovh/imgs/2025/09/11/dfee143cc005fa04.png){width=50%}
+  ![启动返回](https://s3.bmp.ovh/imgs/2025/09/11/dfee143cc005fa04.png)
 
 > 注意，默认配置下，后端项目启动在 48080 端口。
 
 ### 3.2 启动其他模块
 
 * 目前只提供**system与infra**两个服务，如果还需启动其他模块，请加群咨询。
-![群照片](https://gitee.com/starrystar-tech/elm-frontend/raw/master/.image/chatgroup.png)
 
-## 4.技术栈
+## 4.讨论群聊
+如软聚信息化平台搭建过程中遇到任何问题，欢迎加入交流群，我们将及时为您解答与支持。
+![群聊](https://file.bgwa.cn/bgwa/groupchat.jpg)
+
+## 5.联系我们
+我们专业提供CRM、ERP、电商平台等企业信息化系统的定制开发服务，助力企业高效管理与数字化转型。
+
+联系我们
+QQ: [516908542@qq.com](516908542@qq.com)
+微信号: lixiaobin9959
+
+## 6.技术栈
 
 * 模块
 
@@ -164,3 +179,22 @@
 |[Lombok](https://projectlombok.org/)|消除冗长的 Java 代码| 1.18.34|
 |[JUnit](https://junit.org/junit5/)|Java 单元测试框架|5.8.2|
 |[Mockito](https://github.com/mockito/mockito) |Java Mock 框架|4.8.0|
+
+## 7.开源项目
+
+* 后端: [https://github.com/starrystar-tech/elm-backend](https://github.com/starrystar-tech/elm-backend)
+* 前端: [https://github.com/starrystar-tech/elm-frontend](https://github.com/starrystar-tech/elm-frontend)
+* 文档: [https://github.com/starrystar-tech/elm-docs](https://github.com/starrystar-tech/elm-docs)
+
+
+## 平台简介
+* 软聚专注于企业信息化建设，深度融合AI技术，赋能数字化转型，驱动企业智慧升级。截图如下：
+  ![流程管理](https://gitee.com/starrystar-tech/elm-frontend/raw/master/.image/1.png)
+  流程管理
+  ![ERP](https://gitee.com/starrystar-tech/elm-frontend/raw/master/.image/2.png)
+  ERP
+  ![CRM系统](https://gitee.com/starrystar-tech/elm-frontend/raw/master/.image/3.png)
+  CRM系统
+  ![商城系统](https://gitee.com/starrystar-tech/elm-frontend/raw/master/.image/4.png)
+  商城系统
+
