@@ -1,8 +1,8 @@
 # 在线体验
 
-* 体验地址：[https://elm.softfoucs.cn/](https://elm.softfoucs.cn/)（账号密码已默认）
-* 文档地址：[https://docs.softfoucs.cn/](https://docs.softfoucs.cn/)
-
+* 体验地址：[https://elm.bgwa.cn/](https://elm.bgwa.cn/)（账号密码已默认）
+* 文档地址：[https://docs.bgwa.cn//](https://docs.bgwa.cn//)
+https://docs.bgwa.cn//
 # 启动
 
 ## 版本说明
