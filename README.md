@@ -2,7 +2,7 @@
 
 * 体验地址：[https://elm.bgwa.cn/](https://elm.bgwa.cn/)（账号密码已默认）
 * 文档地址：[https://docs.bgwa.cn//](https://docs.bgwa.cn//)
-https://docs.bgwa.cn//
+
 # 启动
 
 ## 版本说明
